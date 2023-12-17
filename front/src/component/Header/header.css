@@ -1,0 +1,191 @@
+
+.wapper .ms-auto
+{
+    gap: 20px;
+    font-size: 20px;
+    color: rgb(195, 135, 7);
+}
+.wapper .bg-body-tertiary
+{
+background-color: white !important;
+/* border: 1px solid gray; */
+}
+.wapper .container {
+    display: flex;
+    justify-content: center !important;
+}
+.wapper .ms-auto button
+{
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: aqua;
+    text-align: center;
+    
+}
+.wapper .ms-auto button:hover
+{
+    box-shadow: 1px 10px 10px 1px gray;
+}
+/* ............wapper-sec.......... */
+
+.wapper-sec .bg-body-tertiary
+{
+    background-color: rgb(36, 52, 220) !important;
+    height: 100px;
+}
+.wapper-sec .me-auto
+{
+    display: flex !important;
+    justify-content: center !important;
+}
+.wapper-sec #basic-navbar-nav
+{
+    display: flex !important;
+    justify-content: center !important;
+}
+.wapper-sec .container
+{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important; 
+}
+.wapper-sec .nav-link {
+    height: 40px;
+    width: 140px;
+    border: 2px solid gray;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+.wapper-sec .nav-link:hover
+{
+    box-shadow: 1px 10px 10px 1px black;
+}
+
+/* ............<slider>.................. */
+
+.slider img
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(95, 198, 64);
+}
+
+      /* ..........About college................ */
+
+.about-college .card-main {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 20px;
+    border: 0px;
+    flex-direction: row;
+}
+.about-college
+{
+    height: 350px;
+    background-color: aquamarine;
+
+}
+.about-college h2 {
+    text-align: center;
+   
+padding: 30px;
+
+}
+
+/* ...............<Our-facilities>............... */
+
+.our-faci .our-main {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 50px;
+    border: 0px;
+    flex-wrap: wrap;
+}
+
+.our-faci
+{
+    height: 510px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.our-faci h2
+{
+    /* margin: 20px 0px 20px; */
+text-align: center;
+padding: 30px;
+}
+
+
+/* ................,cources................. */
+
+
+.our-cour .our-cources {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 50px;
+    border: 0px;
+    flex-wrap: wrap;
+}
+.our-cour a button
+{
+    height: 40px;
+    width: 100px;
+    border: 1px solid gray;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.our-cour a
+{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.our-cour h2
+{
+    /* margin: auto; */
+    /* margin: 30px 0xp 20px ;
+     */
+
+    /* display: flex; */
+    align-items: center;
+
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    /* margin-top: 20px; */
+    /* margin: 20px 0px 20px; */
+    padding: 30px;
+
+}
+.our-cour 
+{
+    text-align: center;
+    background-color: blueviolet;
+    align-items: center;
+    height: 400px;
+}
+
+/* ..............Footer................. */
+
+.form-main{
+    display: flex;
+    height: 300px;
+    padding: 20px;
+}
+.form-main form {
+    border: 1px solid gray;
+    /* height: 00px; */
+}
