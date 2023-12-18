@@ -8,8 +8,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import "./header.css"
-// import bgfirst from '../assets/bg-2.avif'
-// import logo from '../assets/bg-1.jpeg'
+import Bgfirst from '../Image/bg-3.jpg'
+import Logo from '../Image/logo.jpeg'
+import Bgsecond from '../Image/bg-1.jpg'
 import { useState } from 'react';
 // import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
@@ -102,7 +103,7 @@ function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100 "
-              src="..."
+              src={Bgfirst}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -113,7 +114,7 @@ function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100 "
-              src="holder.js/800x400?text=Second slide&bg=eee"
+              src={Bgsecond}
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -124,7 +125,7 @@ function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100 "
-              src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+              src={Logo}
               alt="Third slide"
             />
             <Carousel.Caption>
@@ -383,7 +384,13 @@ function Header() {
       </Form.Group>
       <Button type="submit">Submit form</Button>
     </Form>
-    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.5182634631587!2d75.51912507547374!3d27.88606497608057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ccd5bd01662eb%3A0x43d184498d282d59!2sTagore%20College%20Campus!5e0!3m2!1sen!2sin!4v1702817852160!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.528965756721!2d75.5213261752605!3d27.88573637608087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ccd5bd01662eb%3A0x43d184498d282d59!2sTagore%20College%20Campus!5e0!3m2!1sen!2sin!4v1702703900588!5m2!1sen!2sin"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
           </div>
           
     </>
