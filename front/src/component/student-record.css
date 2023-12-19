@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+
+.container .hadder {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.container .logo img
+{
+    height: 100px;
+    width: 100px;
+}
+
+.record form {
+    text-align: -webkit-center;
+    padding: 10px;
+}
+.record h2{
+    text-align: center;
+}
