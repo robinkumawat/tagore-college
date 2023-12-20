@@ -13,7 +13,7 @@ import { Col } from 'react-bootstrap';
 
 
 const Record = () => {
-  const [formData, setFormData] = useState({firstName: '',lastName: '',father: '',grade: '',subjects: ''});
+  const [formData, setFormData] = useState({ firstName: '', lastName: '', father: '', a: '', b: '', c: '', d: '', e: '', f: '', });
   const [studentRecords, setStudentRecords] = useState([]);
 
   const handleChange = (e) => {
@@ -34,8 +34,12 @@ const Record = () => {
       firstName: '',
       lastName: '',
       father: '',
-      grade: '',
-      subjects: '',
+      a: '',
+      b: '',
+      c: '',
+      d: '',
+      e: '',
+      f: '',
     });
   };
 
@@ -92,26 +96,74 @@ const Record = () => {
             />
           </Form.Group>
 
-          <Form.Group as={Col} md="4" controlId="grade">
-            <Form.Label>Grade</Form.Label>
+          <Form.Group as={Col} md="4" controlId="a">
+            <Form.Label>A</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Enter grade"
-              name="grade"
-              value={formData.grade}
+              placeholder="Enter marks"
+              name="a"
+              value={formData.a}
               onChange={handleChange}
               required
             />
           </Form.Group>
-          <Form.Group md="4" as={Col} controlId="subjects">
-            <Form.Label>Subjects</Form.Label>
+          <Form.Group md="4" as={Col} controlId="b">
+            <Form.Label>b</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Enter subjects"
-              name="subjects"
-              value={formData.subjects}
+              placeholder="Enter marks"
+              name="b"
+              value={formData.b}
               onChange={handleChange}
               required
+            />
+          </Form.Group>
+
+          <Form.Group md="4" as={Col} Control="c">
+            <Form.Label>c</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter marks"
+              name="c"
+              value={formData.c}
+              onChange={handleChange}
+              required
+            />
+          </Form.Group>
+
+          <Form.Label md="4" as={Col} Control="d">
+            <Form.Label>d</Form.Label>
+            <Form.Control
+              type='text'
+              placeholder='enter marks'
+              name='d'
+              value={formData.d}
+              onChange={handleChange}
+              required
+            />
+          </Form.Label>
+
+          <Form.Group md="4" as={Col} Control="e">
+            <Form.Label>e</Form.Label>
+            <Form.Control
+            type='text'
+            placeholder='enter marks'
+            name='e'
+            value={formData.e}
+            onChange={handleChange}
+            required
+            />
+          </Form.Group>
+
+          <Form.Group md='4' as={Col}>
+            <Form.Label>f</Form.Label>
+            <Form.Control
+            type='text'
+            placeholder='enter marks'
+            name='f'
+            value={formData.f}
+            onChange={handleChange}
+            required
             />
           </Form.Group>
 
@@ -130,8 +182,12 @@ const Record = () => {
               <th>First Name</th>
               <th>Last Name</th>
               <th>Father's name</th>
-              <th>Grade</th>
-              <th>Subjects</th>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+              <th>F</th>
             </tr>
           </thead>
           <tbody>
@@ -141,8 +197,13 @@ const Record = () => {
                 <td>{record.firstName}</td>
                 <td>{record.lastName}</td>
                 <td>{record.father}</td>
-                <td>{record.grade}</td>
-                <td>{record.subjects}</td>
+                <td>{record.a}</td>
+                <td>{record.b}</td>
+                <td>{record.c}</td>
+                <td>{record.d}</td>
+                <td>{record.e}</td>
+                <td>{record.f}</td>
+
               </tr>
             ))}
           </tbody>
